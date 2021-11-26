@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/.github.io/Reto4JuvenTic/static/css/main.c135bcf1.chunk.css",
+    "main.js": "/.github.io/Reto4JuvenTic/static/js/main.f763b81e.chunk.js",
+    "main.js.map": "/.github.io/Reto4JuvenTic/static/js/main.f763b81e.chunk.js.map",
+    "runtime-main.js": "/.github.io/Reto4JuvenTic/static/js/runtime-main.04c6b5af.js",
+    "runtime-main.js.map": "/.github.io/Reto4JuvenTic/static/js/runtime-main.04c6b5af.js.map",
+    "static/js/2.bf4a8bbd.chunk.js": "/.github.io/Reto4JuvenTic/static/js/2.bf4a8bbd.chunk.js",
+    "static/js/2.bf4a8bbd.chunk.js.map": "/.github.io/Reto4JuvenTic/static/js/2.bf4a8bbd.chunk.js.map",
+    "index.html": "/.github.io/Reto4JuvenTic/index.html",
+    "precache-manifest.0f8c0adad70e771e33170c828c5f3fe3.js": "/.github.io/Reto4JuvenTic/precache-manifest.0f8c0adad70e771e33170c828c5f3fe3.js",
+    "service-worker.js": "/.github.io/Reto4JuvenTic/service-worker.js",
+    "static/css/main.c135bcf1.chunk.css.map": "/.github.io/Reto4JuvenTic/static/css/main.c135bcf1.chunk.css.map",
+    "static/js/2.bf4a8bbd.chunk.js.LICENSE.txt": "/.github.io/Reto4JuvenTic/static/js/2.bf4a8bbd.chunk.js.LICENSE.txt",
+    "static/media/arrowLeft.35e24a76.svg": "/.github.io/Reto4JuvenTic/static/media/arrowLeft.35e24a76.svg",
+    "static/media/arrowRight.5bede857.svg": "/.github.io/Reto4JuvenTic/static/media/arrowRight.5bede857.svg",
+    "static/media/menuClose.62eefd11.svg": "/.github.io/Reto4JuvenTic/static/media/menuClose.62eefd11.svg",
+    "static/media/menuHamburger.00b27c6b.svg": "/.github.io/Reto4JuvenTic/static/media/menuHamburger.00b27c6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04c6b5af.js",
+    "static/js/2.bf4a8bbd.chunk.js",
+    "static/css/main.c135bcf1.chunk.css",
+    "static/js/main.f763b81e.chunk.js"
+  ]
+}
