@@ -131,7 +131,7 @@ export default class Modal extends Component {
         if( estado ){
             return <div className="containerModal modalOpen">
                 
-                <div className="ventanaModalP" style={{background:'none'}}>
+                <div className="ventanaModalP" >{/*style={{background:'none'}}*/}
 
                     <div className="BotonCerrar">
                         <button className="close" onClick={this.props.abrirModal}>X</button>
