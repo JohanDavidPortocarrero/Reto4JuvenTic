@@ -37,18 +37,24 @@ export default class Modal extends Component {
     onSubmit = (e) => {
         e.preventDefault()
         this.editarF()
-
-        const data = {
-            '_id': this.props.dato._id,
-            'imgURL': this.state.imagen,
-            'public_id': this.props.dato.public_id,
-            'nombre': this.state.title,
-            'descripcion': this.state.descricion,
-            'precio': this.state.precio,
-            'usuario': this.props.dato.usuario
+        
+        const formData = {
+            //'imgURL': this.state.imagen,
+            //'public_id': this.props.dato.public_id,
+            nombre: this.state.title,
+            descripcion: this.state.descricion,
+            precio: this.state.precio,
         };
+        /*
+        const formData = new FormData()      
+        formData.append('imgURL', this.state.imagen);
+        formData.append('public_id', this.props.dato.public_id);
+        formData.append('nombre', this.state.title);
+        formData.append('descripcion', this.state.descricion);
+        formData.append('precio', this.state.precio);*/
 
-        this.props.editPlato(data)
+
+        this.props.editPlato(formData)
     }
 
     onChange = e => {
@@ -134,7 +140,10 @@ export default class Modal extends Component {
                 <div className="ventanaModalP" >{/*style={{background:'none'}}*/}
 
                     <div className="BotonCerrar">
-                        <button className="close" onClick={this.props.abrirModal}>X</button>
+                        <button className="close" onClick={ () =>{ 
+                            this.props.abrirModal() 
+                            this.editarF()
+                        }  }>X</button>
                     </div>
 
                     <div className="mondalDatos">
