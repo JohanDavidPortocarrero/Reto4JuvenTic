@@ -39,12 +39,16 @@ export default (state, action)=>{
 				...state,
 				platos: state.platos.map(plato=>{
 					if(plato._id === action.payload._id){
-						plato.nombre = action.payload.nombre;
-						plato.descripcion = action.payload.descripcion;
-						plato.precio = action.payload.precio;
-						plato.imgURL = action.payload.imgURL;
-						plato.public_id = action.payload.public_id;
+						const datos = {
+							nombre: action.payload.nombre,
+							descripcion: action.payload.descripcion,
+							precio: action.payload.precio,
+							imgURL: action.payload.imgURL,
+							public_id: action.payload.public_id
+						}
+						return datos
 					}
+					return plato
 				})
 			}
 		default:

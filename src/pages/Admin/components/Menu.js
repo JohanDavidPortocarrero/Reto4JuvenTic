@@ -10,7 +10,7 @@ class Productos extends Component {
 
     state = {
         modalDesc: false,
-        editarP: false
+        editarP:false
     }
 
     verInformacion = () => {
@@ -22,6 +22,7 @@ class Productos extends Component {
         this.verInformacion()
     }
 
+    
     modalInfo = () => {
         if(this.state.modalDesc){
             return <Modal 
@@ -66,7 +67,7 @@ class Productos extends Component {
 export default class Menu extends Component {
 
     state = {
-        modalAddP: false        
+        modalAddP: false
     }
 
     agregarProductoM = () => {
@@ -108,8 +109,8 @@ export default class Menu extends Component {
                     <tbody>
                         {this.props.platos.map( plato => {
                             return <Productos 
-                                dato = {plato} 
                                 key = {plato._id}
+                                dato = {plato} 
                                 editPlato = {this.props.editPlato}
                                 deletePlato = {this.props.deletePlato}
                             />

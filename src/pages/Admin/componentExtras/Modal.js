@@ -39,8 +39,9 @@ export default class Modal extends Component {
         this.editarF()
         
         const formData = {
-            //'imgURL': this.state.imagen,
-            //'public_id': this.props.dato.public_id,
+            _id: this.props.dato._id,
+            imgURL: this.state.imagen,
+            public_id: this.props.dato.public_id,
             nombre: this.state.title,
             descripcion: this.state.descricion,
             precio: this.state.precio,

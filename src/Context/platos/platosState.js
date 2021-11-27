@@ -49,6 +49,7 @@ const PlatoState = props =>{
 				type: OBTENER_PLATOS,
 				payload: res.data.plato
 			})
+
 		}catch(error){
 			console.log(error)
 		}
