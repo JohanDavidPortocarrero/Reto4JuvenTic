@@ -16,7 +16,7 @@ export default class MapaSitio extends Component{
             <div className="containerMS">
                 <div className="general cardMS">
                     <h4>
-                        <Link to="/" style={{color:'rgb(0,0,0,)'}}>GENERAL</Link>
+                        <Link to="/" style={{color:'black'}}>GENERAL</Link>
                     </h4>
                     <ul>
                         <li><a className="link" href="/">INICIO</a></li>
@@ -29,7 +29,7 @@ export default class MapaSitio extends Component{
 
                 <div className="nosotros cardMS">
                     <h4>
-                        <Link to="/about" style={{color:'rgb(0,0,0,)'}}>NOSOTROS</Link>
+                        <Link to="/about" style={{color:'black'}}>NOSOTROS</Link>
                     </h4>
                     <ul>
                         <li><Link className="link" to="/about/#our-history">NUESTRA HISTORIA</Link></li>
@@ -40,7 +40,7 @@ export default class MapaSitio extends Component{
 
                 <div className="menu cardMS">
                     <h4>
-                        <Link to="/menu" style={{color:'rgb(0,0,0,)'}}>El MENÚ</Link>
+                        <Link to="/menu" style={{color:'black'}}>El MENÚ</Link>
                     </h4>
                     <div>
 
@@ -49,7 +49,7 @@ export default class MapaSitio extends Component{
 
                 <div className="servicios cardMS">
                     <h4>
-                        <Link to="/services" style={{color:'rgb(0,0,0,)'}}>SERVICIOS</Link>
+                        <Link to="/services" style={{color:'black'}}>SERVICIOS</Link>
                     </h4>
                     <ul>
                         <li><Link className="link" to="/services">CELEBRACION DE CUMPLEAÑOS</Link></li>
