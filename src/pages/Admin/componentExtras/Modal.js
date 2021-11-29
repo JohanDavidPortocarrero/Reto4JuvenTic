@@ -142,8 +142,13 @@ export default class Modal extends Component {
 
                     <div className="BotonCerrar">
                         <button className="close" onClick={ () =>{ 
-                            this.props.abrirModal() 
-                            this.editarF()
+                            if(this.state.edit){
+                                this.editarF()
+                            }
+                            else{
+                                this.props.abrirModal() 
+                            }
+                            
                         }  }>X</button>
                     </div>
 
